@@ -10,16 +10,17 @@ title: Developer Frank
 brief-intro: Full-Stack Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mybluedog24.github.io" # the base hostname & protocol for your site
+description: "Frank's Blog"
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: 
-facebook_username: 
+twitter_username:
+facebook_username:
 github_username:  mybluedog24
 email: frankchen4096@gmail.com
-weibo_username: 
-zhihu_username: 
+weibo_username:
+zhihu_username:
 linkedIn_username: frank-chen-53384b112
 dribbble_username:
 
