@@ -268,44 +268,44 @@ $(function() {
   // page loading
   $(document).ready(function() {
 
-    anime({
-      targets: '.art-preloader .art-preloader-content',
-      opacity: [0, 1],
-      delay: 200,
-      duration: 600,
-      easing: 'linear',
-      complete: function(anim) {
-
-      }
-    });
-    anime({
-      targets: '.art-preloader',
-      opacity: [1, 0],
-      delay: 2200,
-      duration: 400,
-      easing: 'linear',
-      complete: function(anim) {
-        $('.art-preloader').css('display', 'none');
-      }
-    });
+    // anime({
+    //   targets: '.art-preloader .art-preloader-content',
+    //   opacity: [0, 1],
+    //   delay: 200,
+    //   duration: 600,
+    //   easing: 'linear',
+    //   complete: function(anim) {
+    //
+    //   }
+    // });
+    // anime({
+    //   targets: '.art-preloader',
+    //   opacity: [1, 0],
+    //   delay: 2200,
+    //   duration: 400,
+    //   easing: 'linear',
+    //   complete: function(anim) {
+    //     $('.art-preloader').css('display', 'none');
+    //   }
+    // });
   });
 
-  var bar = new ProgressBar.Line(preloader, {
-    strokeWidth: 1.7,
-    easing: 'easeInOut',
-    duration: 1400,
-    delay: 750,
-    trailWidth: 1.7,
-    svgStyle: {
-      width: '100%',
-      height: '100%'
-    },
-    step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
-    }
-  });
-
-  bar.animate(1);
+  // var bar = new ProgressBar.Line(preloader, {
+  //   strokeWidth: 1.7,
+  //   easing: 'easeInOut',
+  //   duration: 1400,
+  //   delay: 750,
+  //   trailWidth: 1.7,
+  //   svgStyle: {
+  //     width: '100%',
+  //     height: '100%'
+  //   },
+  //   step: (state, bar) => {
+  //     bar.setText(Math.round(bar.value() * 100) + ' %');
+  //   }
+  // });
+  //
+  // bar.animate(1);
 
   // counters
   anime({
@@ -340,7 +340,7 @@ $(function() {
     strokeWidth: 7,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2500,
+    delay: 500,
     trailWidth: 7,
     step: function(state, circle) {
       var value = Math.round(circle.value() * 100);
@@ -359,7 +359,7 @@ $(function() {
     strokeWidth: 7,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2600,
+    delay: 600,
     trailWidth: 7,
     step: function(state, circle) {
       var value = Math.round(circle.value() * 100);
@@ -378,7 +378,7 @@ $(function() {
     strokeWidth: 7,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2700,
+    delay: 700,
     trailWidth: 7,
     step: function(state, circle) {
       var value = Math.round(circle.value() * 100);
@@ -397,7 +397,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2800,
+    delay: 800,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
@@ -415,7 +415,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 2900,
+    delay: 900,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
@@ -433,7 +433,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 3000,
+    delay: 1000,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
@@ -451,7 +451,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 3100,
+    delay: 1100,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
@@ -469,7 +469,7 @@ $(function() {
     strokeWidth: 1.72,
     easing: 'easeInOut',
     duration: 1400,
-    delay: 3200,
+    delay: 1200,
     trailWidth: 1.72,
     svgStyle: {
       width: '100%',
