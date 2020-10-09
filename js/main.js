@@ -22,7 +22,7 @@ $(function() {
   // profolio_data start
   var portfolio_data = {
     "hokahoapp": {
-      "categories": ["Website", "iOS", "Android"],
+      "categories": ["Web-app", "iOS", "Android", "Website"],
       "webappurl": "https://app.hokaho.com/",
       "iosurl": "https://apps.apple.com/app/hokaho-toronto-real-estate/id1409510938",
       "androidurl": "https://play.google.com/store/apps/details?id=com.hokaho",
@@ -31,7 +31,7 @@ $(function() {
       "subtitle": "AWS, Ionic, Angular, IOS, Android"
     },
     "schoolapp": {
-      "categories": ["Website", "iOS", "Android"],
+      "categories": ["Web-app", "iOS", "Android", "Website"],
       "webappurl": "https://schoolapp.hokaho.com/",
       "title": "Ontario Schools Search Platform",
       "subtitle": "AWS, Ionic, Angular, IOS, Android"
@@ -67,7 +67,7 @@ $(function() {
       "subtitle": "WordPress, HTML5, CSS, JavaScript"
     },
     "hokahocommercialapp": {
-      "categories": ["Website", "iOS", "Android"],
+      "categories": ["Web-app", "iOS", "Android", "Website"],
       "webappurl": "https://commercialapp.hokaho.com/",
       "iosurl": "https://apps.apple.com/app/id1511607396",
       "androidurl": "https://play.google.com/store/apps/details?id=com.hokaho.commercial",
@@ -106,7 +106,7 @@ $(function() {
       "subtitle": "HTML5, CSS, JavaScript"
     },
     "erichomelifeapp": {
-      "categories": ["Website", "iOS", "Android"],
+      "categories": ["Web-app", "iOS", "Android", "Website"],
       "webappurl": "https://commercialapp.hokaho.com/",
       "iosurl": "https://apps.apple.com/app/id1489774307",
       "androidurl": "https://play.google.com/store/apps/details?id=com.ericlau",
@@ -168,8 +168,7 @@ $(function() {
       "title": "Game Skill Simulator",
       "subtitle": "HTML5, CSS, JavaScript"
     }
-  }
-;
+  };
   // profolio_data end
 
   function html_portfilio(portfolio) {
